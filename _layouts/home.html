@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{%- include head.html -%}
+
+<script>
+    function fadeIn() {
+        console.log("Hello")
+
+        setTimeout(() => {
+            var heroText = document.getElementById("hero-text");
+            heroText.className = "animate";
+            heroText.style.opacity = 1;
+            // const heroLogo = document.getElementById("hero-logo");
+            // heroLogo.className = "animate";
+            // heroLogo.style.opacity = 1;
+        }, 1000)
+    } 
+</script>
+
+<body class="home">
+    <container>
+        <row id="logo-shell">
+            <img id="hero-logo" src="assets/Lir Logo_purple_white_text_animated.svg" alt="Lir Theraputics Logo"
+                onload=fadeIn()>
+
+            <p id="hero-text">
+                Taking the next leap forward in
+                gene therapy vector engineering
+            </p>
+
+
+        </row>
+
+
+    </container>
+    <div id="homepage-footer">
+        <p>
+            Coming soon
+        </p>
+        <p>
+            <a href="mailto:{{site.email}}">{{site.email}}</a>
+        </p>
+    </div>
+</body>
+
+</html>

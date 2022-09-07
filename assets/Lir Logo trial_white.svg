@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3322 3844" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.828055,0,0,0.772473,0,-3433.21)">
+        <g id="Lir-Logo-Trial-" serif:id="Lir Logo Trial;">
+            <g id="Colour-panels" serif:id="Colour panels" transform="matrix(1.20765,0,0,1.29454,-509.341,-1459.48)">
+                <g id="C" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M1094.92,5959.82L3073.75,5958.96L2084.33,7670.29L1094.92,5959.82Z" style="fill:rgb(161,173,182);"/>
+                </g>
+                <g id="T" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M2084.33,4703.42L1094.92,5959.82L3073.75,5959.82L2084.33,4703.42Z" style="fill:rgb(175,195,208);"/>
+                </g>
+                <g id="L1" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M498.083,5616.13L2081.65,4703.42L1094.92,5959.82L498.083,5616.13Z" style="fill:rgb(204,205,216);"/>
+                </g>
+                <g id="L2" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M498.083,7441.55L1094.92,5959.82L498.083,5617.25L498.083,7441.55Z" style="fill:rgb(204,205,216);"/>
+                </g>
+                <g id="L3" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M1094.92,5959.82L2084.33,7670.29L498.083,7441.55L1094.92,5959.82Z" style="fill:rgb(175,195,208);"/>
+                </g>
+                <g id="R3" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M3073.75,5959.82L3665.21,7441.55L2084.33,7670.29L3073.75,5959.82Z" style="fill:rgb(156,149,175);"/>
+                </g>
+                <g id="R1" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M3073.75,5959.82L3665.21,5616.13L2084.33,4703.42L3073.75,5959.82Z" style="fill:rgb(156,149,175);"/>
+                </g>
+                <g id="B1" transform="matrix(1,0,0,1,0,0.436747)">
+                    <path d="M498.083,7441.55L2082.92,7670.29L2081.99,8354.26L498.083,7441.55Z" style="fill:rgb(156,149,175);"/>
+                </g>
+            </g>
+            <g id="All-vertices" serif:id="All vertices" transform="matrix(1.20765,0,0,1.29454,-509.341,-1458.91)">
+                <path d="M2081.65,4703.42L3665.21,5616.13L3665.21,7441.55L2081.65,8354.26L498.083,7441.55L498.083,5616.13L2081.65,4703.42ZM3665.21,5616.13L3073.75,5958.96M2082.92,7670.29L2081.99,8354.26M498.083,5616.13L1094.92,5959.82M3665.21,7441.55L2082.92,7670.29M498.083,7441.55L2082.92,7670.29M3073.75,5958.96L3665.21,7440.95M1094.92,5959.82L498.083,7441.55M1094.92,5959.82L2081.65,4703.42M3073.75,5958.96L2081.65,4703.42M498.083,5616.13L2081.65,4703.42L1094.92,5959.82L498.083,5616.13ZM2082.92,7670.29L3073.75,5958.96L1094.92,5959.82L2082.92,7670.29Z" style="fill:none;stroke:white;stroke-width:37.5px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
