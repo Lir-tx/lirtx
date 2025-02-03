@@ -5,17 +5,32 @@
 
 <script>
     function fadeIn() {
-        console.log("Hello")
 
         setTimeout(() => {
             var heroText = document.getElementById("hero-text");
             heroText.className = "animate";
+
+
             heroText.style.opacity = 1;
-            // const heroLogo = document.getElementById("hero-logo");
-            // heroLogo.className = "animate";
-            // heroLogo.style.opacity = 1;
-        }, 3700)
-    } 
+
+            video = document.getElementById('virus');
+            video.className = "animate";
+            video.style.opacity = 1;
+
+            setTimeout(() => {
+                video.autoplay = true;
+                video.load();
+            }, 100)
+
+            setTimeout(() => {
+                var more = document.getElementById("more");
+                more.style.opacity = 1;
+            }, 800)
+
+
+        }, 3700);
+    }
+
 </script>
 
 <body class="home">
@@ -28,16 +43,97 @@
                 gene therapy vector engineering
             </p>
 
+            <div class="scroll" id="more"></div>
+
 
         </row>
 
 
+        <row id="about">
+            <div id="about-inner">
+                <video muted loop id="virus" poster="assets/0400.png">
+                    <source src="assets/explode_small.mp4" type="video/mp4">
+                </video>
+                <div id="about-text">
+                    <h1>
+                        Lir is completely redesigning viral vectors for
+                        gene therapy.
+                    </h1>
+                    <hr />
+                    <p>
+                        Lir Therapeutics is a biotech company that's focused on unlocking the
+                        next generation of gene therapy. Our work focuses on viral vector
+                        development, with a focus on adeno-associated virus (AAV)
+
+                    </p>
+                    <p>
+                        Our aim is to completely redesign AAV, in order to generate
+                        therapies that are more effective, safer, and cheaper. Lir's
+                        AI-first pipeline combines lab in the loop active learning and
+                        therapeutically relevant model design to make changes across the
+                        whole virus. We're a team of scientists, bioengineers and AI
+                        researchers tackling gene therapy's toughest questions head-on.
+                    </p>
+                    <p>
+                        We've got big things planned for gene therapy.
+                        Watch this space, or reach out to hear about our
+                        progress and keep in touch!
+
+                    </p>
+                </div>
+            </div>
+
+        </row>
+
+        <footer class="page-footer font-small" id="contact">
+            <div class="container text-center">
+
+                <row id="contact">
+                    <div id="homepage-footer">
+                        <p>
+                            Reach out: <a href="mailto:{{site.email}}">{{site.email}}</a>
+                        </p>
+                    </div>
+                </row>
+
+                <hr />
+
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <img id="footer-logo" src="/assets/lir logo vector.svg">
+                    </div>
+                    <div class="col-md-6" id="footer-address">
+
+                        <p>
+                            Lir Therapeutics
+                            <br />
+                            London Biosciences Innovation Center
+                            <br />
+                            2 Royal College St
+                            <br />
+                            London<br />
+                            NW1 0NH
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="footer-copyright text-center py-3">
+                    <!-- <p> Registered address:
+                        3rd Floor,
+                        1 Ashley Road,
+                        Altrincham,
+                        WA14 2DT
+                    </p> -->
+                    <p>
+                        © 2025 Copyright: Lir Therapeutics</a>
+                    </p>
+                </div>
+
+        </footer>
     </container>
-    <div id="homepage-footer">
-        <p>
-            Reach out: <a href="mailto:{{site.email}}">{{site.email}}</a>
-        </p>
-    </div>
+
 </body>
 
 </html>
